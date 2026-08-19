@@ -17,9 +17,9 @@ export default function ResumeModal({ onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto modal-overlay animate-fadeIn">
-      
+
       <div className="relative w-full max-w-4xl max-h-[94vh] bg-white rounded-2xl overflow-hidden flex flex-col my-auto border border-slate-200 shadow-2xl">
-        
+
         {/* Header Action Bar */}
         <div className="p-4 sm:p-5 bg-slate-50 border-b border-slate-200 flex items-center justify-between gap-4 print:hidden">
           <div className="flex items-center gap-2">
@@ -53,7 +53,7 @@ export default function ResumeModal({ onClose }) {
 
         {/* Printable & Clean CV Content */}
         <div className="p-6 sm:p-10 overflow-y-auto bg-white text-slate-800 space-y-6 print:p-0 print:overflow-visible">
-          
+
           {/* Header */}
           <div className="text-center pb-5 border-b border-slate-200">
             <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">Onkar Laxman Patil</h1>
@@ -65,7 +65,7 @@ export default function ResumeModal({ onClose }) {
                 <LinkedinIcon className="w-3.5 h-3.5" /> LinkedIn
               </a>
               <span>|</span>
-              <a href="https://portfolio-alpha-coral-jpkpij5nl6.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <a href="https://portfolio-react-native-vert.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 Portfolio
               </a>
             </p>
